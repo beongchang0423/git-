@@ -123,4 +123,6 @@ git rebase "브랜치명"   =현재 HEAD branch에 대상 branch간의 공통 co
 
 ##잘못된 commit 변경하기
 git commit --amend = 연결된 편집기로 자동 이동되며 commit 수정이 가능해짐
+![image](https://user-images.githubusercontent.com/43203949/210678051-80c47ec4-2518-4d11-a2ae-3e045bde1f7e.png)
+
 
