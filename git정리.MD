@@ -123,6 +123,11 @@ git rebase "브랜치명"   =현재 HEAD branch에 대상 branch간의 공통 co
 
 ##잘못된 commit 변경하기
 git commit --amend = 연결된 편집기로 자동 이동되며 commit 수정이 가능해짐
-![image](https://user-images.githubusercontent.com/43203949/210678051-80c47ec4-2518-4d11-a2ae-3e045bde1f7e.png)
+![image](https://user-images.githubusercontent.com/43203949/210702647-04dc1efb-2662-48a2-87a3-10d7ef0d29cf.png)
+
+## git reset VS git revert
+git reset = commit 이력 자체를 없애버리기 때문에 원격 저장소와 충돌이 발생하거나 commit history를 상실할 위험존재
+git revert = commit 내용을 삭제한다는 새로운 commit을 만듬-커밋 히스토리를 유지하며 덮어씌움
+git revert "커밋 주소" (커밋주소는 HEAD~1과같은 형태임 숫자에 따라 index가 달라짐)
 
 
