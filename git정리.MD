@@ -47,9 +47,8 @@ git add . = 존재하는 모든 파일을 add해라
 2.stage
 git reset으로 unstage가 가능함
 git commit  = 만 하면 vscode로 열리면서 원하는 commit 메세지를 저장 후 등록됨
-git commit -m "~~" 하면 괄호 안의 내용이 commit 메세지로 저장됨
-git commit -am "~~" (all message) 하면 add 없이 바로 모든 파일을 commit 가능하며
-괄호안의 내용이 저장됨
+git commit -m "메세지"" = commit 메세지로 저장됨
+git commit -am "메시지" = a옵션이 파일 자동 stage 기능을 하여 add 없이 commit이 된다고함.
 
 3.directory
 directory에 올라간 파일들은 버전별로 저장되어 있다. 언제든 되돌리는 것이 가능함
