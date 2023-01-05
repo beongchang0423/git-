@@ -121,4 +121,6 @@ git rebase "브랜치명"   =현재 HEAD branch에 대상 branch간의 공통 co
 기존에는 HEAD의 내용이 앞에 저장되고 나머지가 뒤에 저장되어 충돌내용을 검토받는데, rebase의 경우 반대로 이루어지며 그 이유는 합쳐지는 branch가 중간에 끼어들어 commit되는 형태이기 때문이다.
 동일하게 충돌을 정리 후 변경사항 staging(add)한 후 다시 commit해주는 대신에 git rebase  --continue 명령어를 사용하면 현재 rebase 내용을 반영하게 됨(조상 commit을 완료한 지점까지 당겨오는 것) 이를 통해 merge가 마무리 된다.
 
+##잘못된 commit 변경하기
+git commit --amend = 연결된 편집기로 자동 이동되며 commit 수정이 가능해짐
 
